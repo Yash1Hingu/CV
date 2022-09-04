@@ -1,0 +1,28 @@
+body{
+  background-color: #EEEEEE;
+    font-family: Oswald;
+}
+h1{
+  color:#00ADB5;
+}
+h3{
+  color: #00ADB5;
+}
+a{
+  text-decoration: underline #00ADB5 solid ;
+  color: #FF2E63;
+}
+img{
+  border: 5px solid #00ADB5;
+  border-radius: 50%;
+}
+hr{
+  background: #222831;
+  border-style: solid;
+  border-color:  #222831:
+}
+input,textarea{
+  margin: 2px;
+  border: 2px solid #222831;
+  border-radius: 2px;
+}
