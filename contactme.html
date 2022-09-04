@@ -4,25 +4,39 @@
 <head>
   <meta charset="utf-8">
   <title>Contact Me</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="index.css">
+  <style>
+  *{
+    text-align: center;
+  }
+  .btn{
+    border: none;
+    background-color: #393E46;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #EEEEEE;
+    font-family: Oswald;
+  }
+  </style>
 </head>
-
 <body>
   <h1>Contact Details</h1>
   <p>My Address</p>
   <p>48745445352</p>
   <p>myemail@gmial.com</p>
 <hr>
-  <p><b>Please Not Enter Your Real Email(it is begning😁)</b></p>
+<p><b>Please Not Enter Your Real Email(it is begning😁)</b></p>
 <form action="mailto:yash23hingu@gmail.com" method="post" enctype="text/plain">
   <label>Name:</label>
   <input type="text" name="Name" value=""><br><br>
   <label>Email:</label>
   <input type="email" name="Email" value=""><br><br>
-  <label>Suggestion</label>
-  <input type="text" name="Message" value=""><br><br>
+  <label>Suggestion:</label>
+  <textarea name="Suggestion" rows="8" cols="50"></textarea><br><br>
   <label>Do You Share Your Infromation?</label>
   <input type="checkbox" name="Complete" value=""><br><br>
-  <input type="submit" name="">
+  <input type="submit" name="" class="btn">
 </form>
 </body>
 
